@@ -1,0 +1,17 @@
+{
+  "name": "IP address details",
+  "version": "1.0.0",
+  "description": "Get details of IP address",
+  "manifest_version": 3,
+  "author": "Ashwin Dev P",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "IP address details",
+    "default_icon": "assets/images/ip.png"
+  },
+  "icons": {
+    "16": "assets/images/ip.png",
+    "48": "assets/images/ip.png",
+    "128": "assets/images/ip.png"
+  }
+}

@@ -1,0 +1,91 @@
+:root {
+  --theme: #e63a57;
+}
+
+body {
+  margin: 3% 20%;
+  width: 60%;
+}
+
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0px;
+}
+th {
+  text-align: left;
+}
+table,
+td,
+th {
+  border: 0.5px solid grey;
+}
+
+th,
+td {
+  padding: 1%;
+}
+
+h1 {
+  font-size: 130%;
+  text-align: center;
+}
+
+button {
+  padding: 1%;
+  border: 0px;
+  background-color: var(--theme);
+  margin: 4px;
+  color: #fff;
+  border-radius: 10%;
+}
+
+button:disabled {
+  background-color: gray;
+}
+
+#table-div {
+  margin: 2% 0%;
+}
+
+#my-ip-div {
+  text-align: center;
+  background-color: var(--theme);
+  color: #fff;
+  padding: 2% 0%;
+}
+
+/*  small screen views such as extension view and mobile view*/
+@media only screen and (max-width: 600px) {
+  html {
+    border: 3px solid var(--theme);
+    padding: 1%;
+    min-height: 98vh;
+  }
+
+  body {
+    width: 98%;
+    margin: 0%;
+  }
+
+  button {
+    width: 100%;
+    margin-bottom: 10%;
+    border-radius: 0%;
+  }
+
+  input {
+    margin: 2% 1%;
+  }
+
+  #my-ip-div {
+    text-align: center;
+    background-color: var(--theme);
+    color: #fff;
+    padding: 4% 0%;
+  }
+
+  #table-div {
+    margin: 10% 0%;
+  }
+}
